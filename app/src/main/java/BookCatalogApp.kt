@@ -17,7 +17,17 @@ fun BookCatalogAppShowingListPreview() {
 @Composable
 fun BookCatalogAppShowingDetailPreview() {
     BookCatalogTheme {
-        val sampleBookForPreview = Book(  )
+        val sampleBookForPreview = Book(
+            id = "preview-detail-app-001",
+            title = "Тестовая Книга для Детального Превью",
+            author = "Автор Превью",
+            description = "Это очень интересное описание книги, которое мы используем специально для того, чтобы протестировать, как выглядит экран детальной информации в режиме превью. Оно может быть достаточно длинным, чтобы проверить перенос строк и общее отображение текста.",
+            category = "Превью Категория",
+            coverImageUrl = null,
+            yearPublished = 2024,
+            pageCount = 321,
+            rating = 4.5f
+        )
 
         BookDetailScreen(book = sampleBookForPreview, onNavigateBack = {})
     }

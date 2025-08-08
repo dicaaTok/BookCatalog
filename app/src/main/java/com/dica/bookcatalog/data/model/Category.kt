@@ -1,12 +1,11 @@
 package com.dica.bookcatalog.data.model
 
-import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
+import android.os.Parcelable
 
 @Parcelize
-data class Category(
-    val id: String,
-    val name: String,
-    // val iconResId: Int? = null,
-    // val colorHex: String? = null
+data class User(
+    val firstName: String,
+    val lastName: String,
+    val age: Int
 ) : Parcelable

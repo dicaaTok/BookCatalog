@@ -1,4 +1,4 @@
-package com.dica.bookcatalog.ui.widgets // Убедись, что пакет правильный
+package com.dica.bookcatalog.ui.widgets
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
